@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#haedong{
+  color: aquamarine;
+}
+
+#beomeo{
+  color: bisque;
+}
+
+#yongdusan{
+  color: blueviolet;
+}
+
+.card{
+  margin: 50px 0px;
+}
+li{
+  margin-left: 20px;
+}
