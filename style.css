@@ -3,21 +3,138 @@
   padding: 0;
 }
 
-#haedong{
-  color: aquamarine;
+body{
+  background-color: #29292E;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
 
-#beomeo{
-  color: bisque;
+#container{
+  padding: 88px 80px 48px 80px;
+  margin: 0px auto;
+  width:1120px;
+  background-color: #F5F4F0;
 }
 
-#yongdusan{
-  color: blueviolet;
+main{
+  margin: 0px auto 65px auto;
+  width:1120px;
+  background-color: #F5F4F0;
+
+  font-weight: normal;
+  color: #333333;
+}
+
+img{
+  border-radius: 28px;
+  width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4{
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #1B1B1B;
+}
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h4{
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+ul{
+  font-weight: bold;
+}
+
+h3 > li{
+  margin-left: 45px;
+}
+
+ul > li{
+  margin-left: 20px;
+  list-style: disc;
+}
+
+ul > li::marker{
+  color: #1B1B1B;
+}
+
+.blue{
+  color: #0C51A7;
+}
+
+.purple{
+  color: #591B98;
+}
+
+.pink{
+  color: #E5245E;
+}
+
+.orange{
+  color: #E95E10;
+}
+
+#busan{
+  margin: 40px 0px;
+}
+
+#subtitle{
+  font-style: italic;
+  text-align: center;
+  margin: 24px 20px 50px 20px;
+}
+
+hr{
+  background-color: #D9D9D9;
+  height: 1px;
+  border: none;
+  margin: 40px 0px;
+}
+
+#discover{
+  margin: 64px 0px;
+}
+
+#flex{
+  display: flex;
+}
+
+a{
+  margin-left: auto;
+  margin-right: 25px;
+  align-self: center;
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #78a6df;
 }
 
 .card{
-  margin: 50px 0px;
+  margin-top: 48px;
 }
-li{
-  margin-left: 20px;
+
+.card > img{
+  margin-bottom: 20px;
+}
+
+#closure{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  margin-top: 65px;
 }
